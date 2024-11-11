@@ -1,0 +1,208 @@
+/* ===== Reset Basic Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif; /* Change the font-family here */
+    background-color: #f4f4f4; /* Page background color */
+    color: #333; /* Base text color */
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* ===== Header Styling ===== */
+  header {
+    background-color: #007BFF; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2em; /* Adjust header font size */
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ===== Main Content Styling ===== */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff; /* Container background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow */
+  }
+  
+  /* Two-column layout */
+  .left-column {
+    width: 30%;
+    padding: 10px;
+    background-color: #e9ecef; /* Column background color */
+    border-radius: 5px;
+  }
+  
+  .right-column {
+    width: 70%;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .left-column,
+    .right-column {
+      width: 100%; /* Stacks columns on small screens */
+    }
+  }
+  
+  main h2 {
+    color: #007BFF; /* Section title color */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  main p {
+    font-size: 1em; /* Main text size */
+    color: #666; /* Text color */
+    margin-bottom: 20px;
+  }
+  
+  /* ===== Unordered List Styling (Services) ===== */
+  .right-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .right-column ul li {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .right-column ul li:hover {
+    background-color: #eaeaea; /* Hover color for list items */
+  }
+  
+  /* ===== Footer Styling ===== */
+  footer {
+    background-color: #333; /* Footer background color */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    font-size: 0.9em; /* Footer text size */
+  }
+  
+  /* ===== Form Styling ===== */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Form shadow */
+  }
+  
+  fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #007BFF; /* Form legend color */
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"],
+  form input[type="date"],
+  form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #007BFF; /* Submit button color */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #0056b3; /* Hover color for submit button */
+  }
+  
+  #error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -10px;
+  }
+  
+  /* ===== Button and Paragraph Styling ===== */
+  button {
+    background-color: #007BFF; /* Button color */
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p#myPara {
+    font-size: 1em;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
