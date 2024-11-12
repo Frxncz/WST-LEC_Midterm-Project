@@ -182,9 +182,9 @@
   
   /* ===== Button and Paragraph Styling ===== */
   button {
-    background-color: #007BFF; /* Button color */
+    background-color: #00ADB5; /* Button color */
     color: #fff;
-    padding: 8px 12px;
+    padding: 10px 14px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -193,7 +193,7 @@
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #00787e;
   }
   
   p#myPara {
@@ -205,4 +205,9 @@
     border: 1px solid #ddd;
     text-align: center;
   }
-  
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
