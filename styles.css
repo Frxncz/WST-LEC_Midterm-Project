@@ -105,6 +105,45 @@
   .right-column ul li:hover {
     background-color: #eaeaea; /* Hover color for list items */
   }
+
+  /* ===== Section Styling (About Us, Contact, Server-side) ===== */
+  .about-us,
+  .contact,
+  .server-side {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+  }
+
+  .about-us h2,
+  .contact h2,
+  .server-side h2 {
+      color: #00ADB5;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+  }
+
+  .about-us p,
+  .contact p,
+  .server-side p {
+      font-size: 1em;
+      color: #222831;
+      margin-bottom: 10px;
+  }
+
+  pre {
+      background-color: #f9f9f9;
+      padding: 15px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      font-size: 1em;
+      color: #333;
+      margin-bottom: 20px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+  }
   
   /* ===== Footer Styling ===== */
   footer {

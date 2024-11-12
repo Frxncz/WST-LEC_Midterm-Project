@@ -12,9 +12,9 @@
     <h1>Welcome to Our Website</h1>
     <nav>
       <a href="#home">Home</a>
-      <a href="#about">About Us</a>
+      <a href="#about-us">About Us</a>
       <a href="#contact">Contact</a>
-      <a href="#server-side-basics">Server-side Basics</a> <!-- New Navigation Link -->
+      <a href="#server-side">Server Side Topic</a>
     </nav>
   </header>
 
@@ -79,6 +79,60 @@
 
 
   <ul id="fruitList"></ul>
+
+   <!-- Server-side Basics Section -->
+   <section class="server-side" id="server-side">
+    <h2>Server-side Basics</h2>
+    <p>Server-side technologies are crucial in building dynamic websites and web applications. They handle data processing, database interactions, and user requests on the server, providing a foundation for web applications.</p>
+    
+    <h3>PHP</h3>
+    <p>PHP is a popular server-side scripting language. It is widely used for creating dynamic web pages and handling server-side operations such as form submissions and user authentication. PHP runs on the server, generating HTML content that is sent to the client.</p>
+    <p><strong>Example:</strong> A simple PHP script that processes a contact form submission:</p>
+    <pre>
+      &lt;?php
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+          $name = $_POST['name'];
+          $email = $_POST['email'];
+          echo "Thank you, $name! We'll contact you at $email.";
+        }
+      ?&gt;
+    </pre>
+    
+    <h3>Node.js</h3>
+    <p>Node.js is a runtime environment that allows you to run JavaScript on the server. It is designed for building scalable and high-performance applications, especially for handling many simultaneous connections.</p>
+    <p><strong>Example:</strong> A simple Node.js server that responds to HTTP requests:</p>
+    <pre>
+      const http = require('http');
+      const server = http.createServer((req, res) => {
+        res.writeHead(200, {'Content-Type': 'text/plain'});
+        res.end('Hello from Node.js');
+      });
+      server.listen(3000, () => {
+        console.log('Server is running on port 3000');
+      });
+    </pre>
+    
+    <h3>SQL Databases</h3>
+    <p>SQL databases are used to store and manage structured data. They use the Structured Query Language (SQL) to perform tasks such as data retrieval, insertion, and updates. Examples of SQL databases include MySQL, PostgreSQL, and SQLite.</p>
+    <p><strong>Example:</strong> A simple SQL query to retrieve user data from a database:</p>
+    <pre>
+      SELECT * FROM users WHERE id = 1;
+    </pre>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about-us" id="about-us">
+    <h2>About Us</h2>
+    <p>We are a dedicated team providing high-quality video editing and graphic design services to help your brand stand out.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Information</h2>
+    <p>Email: francisjoncarlo@gmail.com</p>
+    <p>Phone: +63 0963 274 6889</p>
+    <p>Address: 123 Main St, Cityville, Mandaluyong city</p>
+  </section>
 
 
   <footer>
