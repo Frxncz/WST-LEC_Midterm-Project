@@ -34,7 +34,7 @@
   </main>
 
   <!-- Form Section -->
-  <form action="handle_form.php" method="post">
+  <form action="submit_form.php" method="post">
     <fieldset>
       <legend>Personal Information</legend>
 
