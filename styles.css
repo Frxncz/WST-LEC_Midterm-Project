@@ -8,14 +8,14 @@
   body {
     font-family: Arial, sans-serif; /* Change the font-family here */
     background-color: #f4f4f4; /* Page background color */
-    color: #333; /* Base text color */
+    color: #222831; /* Base text color */
     line-height: 1.6;
     padding: 20px;
   }
   
   /* ===== Header Styling ===== */
   header {
-    background-color: #007BFF; /* Header background color */
+    background-color: #222831; /* Header background color */
     color: #fff; /* Header text color */
     padding: 20px;
     text-align: center;
@@ -74,14 +74,14 @@
   }
   
   main h2 {
-    color: #007BFF; /* Section title color */
+    color: #00ADB5; /* Section title color */
     font-size: 1.5em;
     margin-bottom: 10px;
   }
   
   main p {
     font-size: 1em; /* Main text size */
-    color: #666; /* Text color */
+    color: #222831; /* Text color */
     margin-bottom: 20px;
   }
   
@@ -138,7 +138,7 @@
   
   legend {
     font-weight: bold;
-    color: #007BFF; /* Form legend color */
+    color: #00ADB5; /* Form legend color */
   }
   
   form label {
@@ -161,7 +161,7 @@
   }
   
   form button[type="submit"] {
-    background-color: #007BFF; /* Submit button color */
+    background-color: #00ADB5; /* Submit button color */
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -171,7 +171,7 @@
   }
   
   form button[type="submit"]:hover {
-    background-color: #0056b3; /* Hover color for submit button */
+    background-color: #00787e; /* Hover color for submit button */
   }
   
   #error {
